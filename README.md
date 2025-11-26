@@ -1,16 +1,22 @@
-# React + Vite
+🧭 Pathfinding Algorithm Visualizer
+An interactive React-based visualization tool that demonstrates various heuristic search algorithms for pathfinding problems. Explore how different algorithms navigate through obstacles to find optimal paths with real-time animations and detailed exploration trees.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+- Multiple Algorithms: A, Best-First Search, Greedy Search, Hill Climbing, IDA, and SMA*
 
-Currently, two official plugins are available:
+- Interactive Visualization: Real-time algorithm execution with adjustable speed
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Exploration Tree: Dynamic tree visualization showing algorithm decision-making
 
-## React Compiler
+- Detailed Analytics: Step-by-step logging and performance statistics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive Design: Full-page layout with draggable/zoomable tree view
 
-## Expanding the ESLint configuration
+- Customizable Grid: Randomly generated mazes with fixed start/end points
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Educational Value
+This project is perfect for:
+
+- Understanding heuristic search algorithms
+
+- Comparing algorithm performance and behavior 
